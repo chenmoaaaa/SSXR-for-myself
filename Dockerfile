@@ -7,7 +7,7 @@ RUN yum update -y && \
     yum clean all
     
 
-RUN git clone http://120.77.146.213:3000/eloco/shadowsocksr_a.git /root/ssr
+RUN git clone http://eloco.ga:3000/eloco/shadowsocksr_a.git /root/ssr
 
 RUN git clone https://github.com/snooda/net-speeder.git /net-speeder
 WORKDIR /net-speeder
